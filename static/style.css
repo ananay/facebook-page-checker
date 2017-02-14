@@ -1,8 +1,8 @@
 /*
 * @Author: ananayarora
 * @Date:   2017-02-11 13:07:55
-* @Last Modified by:   ananayarora
-* @Last Modified time: 2017-02-11 13:11:44
+* @Last Modified by:   ananay
+* @Last Modified time: 2017-02-11 13:29:32
 */
 
 @import url('https://fonts.googleapis.com/css?family=Lato:100,300');
@@ -14,6 +14,7 @@
 
 body {
 	overflow-x:hidden;
+	font-family: "Lato","Helvetica Neue","Segoe Ui","Arial","sans-serif";
 }
 
 .header {
@@ -22,7 +23,28 @@ body {
 }
 
 h1 {
-	font-family: "Lato","Helvetica Neue","Segoe Ui","Arial","sans-serif";
 	color:#fff;
 	font-weight: 300;
+}
+
+.btn {
+	padding:20px;
+	background:#333;
+	color:#fff;
+	width: 200px;
+	text-align: center;
+}
+
+.formtext {
+	font-size: 20pt;
+}
+
+#url {
+	font-size: 20pt;
+	padding:10px;
+}
+
+.status {
+	font-size: 20pt;
+	color:#cdcdcd;
 }
